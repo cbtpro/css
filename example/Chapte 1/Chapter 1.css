@@ -1,0 +1,10 @@
+.wrapper {
+	width: 100%;
+}
+
+.operate-hidden-element-parent:hover > td > button.operate-hidden-element {
+	opacity: 1;
+}
+.operate-hidden-element {
+	opacity: 0;
+}

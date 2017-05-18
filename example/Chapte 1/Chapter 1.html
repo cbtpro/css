@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>css使用户操作更加精准</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="Chapter 1.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<table ng-controller="demoController" class="table">
+				<thead>
+					<th>No.</th>
+					<th>Name</th>
+					<th>Sex</th>
+					<th>&nbsp;</th>
+				</thead>
+				<tbody>
+					<tr ng-repeat="user in list" class="operate-hidden-element-parent">
+						<td>{{$index+1}}</td>
+						<td>{{user.name}}</td>
+						<td>{{user.sex}}</td>
+						<td><button class="btn btn-default operate-hidden-element">编辑</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/angular.js/1.5.5/angular.min.js" type="text/javascript"></script>
+	<script src="Chapter 1.js" type="text/javascript"></script>
+</html>
