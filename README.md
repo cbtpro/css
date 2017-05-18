@@ -76,7 +76,7 @@
 ##### 拓展
  * 相邻兄弟选择器 `A + B`
  * 普通兄弟选择器 `A ~ B`
- * 后代选择器 `A B`
+ * 后代选择器 `A B`  
 #参考文档：
 * [css选择器](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference#选择器)
 # [第一章&nbsp;css使操作更加精准](#第一章&nbsp;css使操作更加精准)
