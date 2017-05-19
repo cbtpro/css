@@ -28,6 +28,7 @@
 ##### 实现逻辑：
 * 编辑按钮的透明度设置为0
 * table的tr添加hover，在触发hover后，将编辑按钮设置为可见。   
+
 ```html
 <table class="table">
 	<thead>
@@ -64,9 +65,11 @@
 	</tbody>
 </table>
 ```
+
 注意看这里在tr有个.operate-hidden-element-parent的样式，由它来触发hover。编辑按钮上有个.operate-hidden-element样式，是为了让按钮先隐藏罢了。  
 这里要用到一个很重要的选择器`子选择器` `A > B`,选择器要灵活使用，回到刚才的html代码，html是树状结构的，可以看到事件触发的地方tr下层是td，td下层才是button。那么选择器应该是`tr > td > button`,必须要用两个子选择器才可以准确找到button，否则选择器是无效的。
-稍微修改下，就成了下面这个样子，当然你还可以继续修改。
+稍微修改下，就成了下面这个样子，当然你还可以继续修改。  
+
 ```css
 .operate-hidden-element-parent:hover > td > button.operate-hidden-element {
 	opacity: 1;
