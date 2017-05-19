@@ -20,13 +20,14 @@
 当用户勾选了多条记录的时候是没法编辑的
 
 ##你的工作不只是完成代码，好的用户体验也是你的职责
-我们换种方式来做编辑这个操作，当鼠标悬浮到要编辑的记录上时，显示编辑按钮。[点击这里查看demo](https://cbtpro.github.io/css/example/Chapter%201/Chapter%201.html)
+我们换种方式来做编辑这个操作，当鼠标悬浮到要编辑的记录上时，显示编辑按钮。[点击这里查看demo](https://cbtpro.github.io/css/example/Chapter%201/Chapter%201.html)  
+
 ![alt 舒服的体验](https://cbtpro.github.io/css/example/Chapter%201/images/20170518161228.jpg)
-![alt 舒服的体验](https://cbtpro.github.io/css/example/Chapter%201/images/20170518161259.jpg)
+![alt 舒服的体验](https://cbtpro.github.io/css/example/Chapter%201/images/20170518161259.jpg)  
 相比用复选框还勾选的操作，这种操作更加精准，代码难度更低。
 ##### 实现逻辑：
 * 编辑按钮的透明度设置为0
-* table的tr添加hover，在触发hover后，将编辑按钮设置为可见。 
+* table的tr添加hover，在触发hover后，将编辑按钮设置为可见。   
 ```html
 <table class="table">
 	<thead>
