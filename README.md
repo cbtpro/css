@@ -16,7 +16,8 @@
 #正文
 当我们要编辑一个列表的时候，下面这种体验其实是很糟糕的。
 
-![alt 糟糕的体验](https://cbtpro.github.io/css/example/Chapter%201/images/20170518152506.jpg)
+![alt 糟糕的体验](https://cbtpro.github.io/css/example/Chapter%201/images/20170518152506.jpg)  
+
 当用户勾选了多条记录的时候是没法编辑的
 
 ##你的工作不只是完成代码，好的用户体验也是你的职责
